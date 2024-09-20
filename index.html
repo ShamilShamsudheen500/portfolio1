@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PORTFOLIO</title>
+    <link rel="stylesheet" href="styles.css">
+    <!-- Fontawesome link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Google fonts link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inria+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Nerko+One&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Playwrite+CU:wght@100..400&family=Sevillana&display=swap" rel="stylesheet">
+    <!-- animate style -->
+     rel="stylesheet"
+     <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+  <!-- AOS animation -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+<body>
+    <div id="container">
+        <!-- navbar -->
+         <nav>
+            <!-- logo -->
+            <img class="logo" src="data:image/jpeg;base64,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" alt="No image">
+            <!-- links -->
+             <ul>
+                <li class="list-items"><a class="list" href="#home">Home</a></li>
+                <li class="list-items"><a class="list" href="#about">About</a></li>
+                <li class="list-items"><a class="list" href="#skill">Skill</a></li>
+                <li class="list-items"><a class="list" href="#contact">Contact</a></li>
+
+             </ul>
+         </nav>
+        <!-- home -->
+        <section id="home">
+            <!-- home content -->
+            <div class="home-content">
+                <h1 class="animate__animated animate__flash" id="username">Im Maria <span id="lname">Joe</span></h1>
+                <p id="user-details">This is my official portfolio website to describe all<br>Details and work experience in web development</p>
+                <a id="download"   href="./UPDATED RESUME.pdf" download>Download CV</a>
+             </div>
+             <div class="home-img">
+                <!-- shape -->
+                 <img id="shape" class="grp1"     src="./IMAGES/busilady shape.png" alt="">
+                <!-- girl -->
+                 <img  id="girl"  class="grp1"     src="./IMAGES/business lady.png" alt="">
+                
+                  
+             </div>
+        </section>
+        <!-- About -->
+         <section id="about">
+            <div class="sectionHead">
+                <h2 id="mainHead">About Me</h2>
+                <span id="subHead">Introduction</span>
+            </div>
+            <div class="aboutBody">
+                <div data-aos="fade-up"class="aboutImage">
+                    <img class="img1"    src="./IMAGES/about me.jpeg" alt="No image">
+                </div>
+                <div class="aboutContent">
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Alias, eius. Voluptate vel totam eveniet mollitia. Autem nesciunt sed illo nihil consectetur qui, assumenda voluptate, aliquid, atque tenetur sunt libero itaque.
+                    Aperiam quas a voluptatem odio dolor doloremque repellendus quaerat maxime ipsa recusandae porro harum veniam.</p>
+                    <div class="information">
+                        <div class="infoBox">
+                            <i class="fa-solid fa-user"></i>
+                            <span>Maria Joe</span>
+                        </div>
+                        <div class="infoBoX">
+                            <i class="fa-solid fa-phone"></i>
+                            <span>8590164038</span>
+      
+                        </div>
+                        <div class="infoBox">
+                            <i class="fa-solid fa-envelope"></i>
+                            <span>yourownmaria@gmail.com</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+         </section>
+        <!-- Skill -->
+         <section id="skill">
+            <div class="sectionHead">
+                <h2 id="mainHead">Skills</h2>
+                <span id="subHead">My Skills</span>
+            </div>
+            <div class="skillContent">
+                <div class="progressbar">
+                    <!-- Progress bar -->
+                     <div class="bars">
+                            <h3 class="mainhead">HTML</h3>
+                            <span class="barpercentage">89%</span>
+                            <div class="baseBar"></div>
+                            <div class="baseBar htmlBar"></div>
+
+
+                     </div>
+                     <div class="bars">
+                            <h3 class="mainhead">CSS</h3>
+                            <span class="barpercentage">89%</span>
+                            <div class="baseBar"></div>
+                            <div class="baseBar CSSBar"></div>
+
+
+                     </div>
+                     <div class="bars">
+                            <h3 class="mainhead">JS</h3>
+                            <span class="barpercentage">79%</span>
+                            <div class="baseBar"></div>
+                            <div class="baseBar JSBar"></div>
+
+
+                     </div>
+                     <div class="bars">
+                            <h3 class="mainhead">React</h3>
+                            <span class="barpercentage">69%</span>
+                            <div class="baseBar"></div>
+                            <div class="baseBar ReactBar"></div>
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+
+
+                     </div>
+                </div>
+                <div class="mySkill">
+                    <img src="./IMAGES/skill image.jpeg" alt="No image">
+                </div>
+            </div>
+
+         </section>
+        <!-- Contact -->
+         <section id="contact">
+            <div class="sectionHead">
+                <h2 id="mainHead">Contacts</h2>
+                <span id="subHead">My Contacts</span>
+            </div>
+            <div class="iconCollection">
+                <!-- Linkdein -->
+                 <div class="icon">
+                    <a href="https://www.linkedin.com/in/shamil-shamsudheen-400638275/" target="_blank"><i class="fa-brands fa-linkedin brands"></i></a>
+                 </div>
+                <!-- Github -->
+                <div class="icon">
+                    <a href="https://www.linkedin.com/in/shamil-shamsudheen-400638275/" target="_blank"><i class="fa-brands fa-github brands"></i></a>
+                 </div>
+                <!-- Twitter -->
+                <div class="icon">
+                    <a href="https://www.linkedin.com/in/shamil-shamsudheen-400638275/" target="_blank"><i class="fa-brands fa-twitter brands"></i></a>
+                 </div>
+                <!-- FB -->
+                <div class="icon">
+                    <a href="https://www.linkedin.com/in/shamil-shamsudheen-400638275/" target="_blank"><i class="fa-brands fa-facebook brands"></i></a>
+                 </div>
+                 <!-- Mail -->
+                 <div class="icon">
+                    <a href="https://www.linkedin.com/in/shamil-shamsudheen-400638275/" target="_blank"><i class="fa-solid fa-envelope brands"></i></a>
+                 </div>
+
+
+            </div>
+         </section>
+        <!-- Footer -->
+         <footer>
+            <p id="copyright">&copy; My portfolio website - June 2024, All RightsReserved to &reg;</p>
+            <div class="icon upArrow">
+                <a href="#container"> <i class="fa-solid fa-angle-up brands"></i></a>
+             </div>
+         </footer>
+    </div>
+</body>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    AOS.init();
+  </script>
+</html>
